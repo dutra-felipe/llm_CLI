@@ -1,0 +1,53 @@
+# Diretório do ambiente virtual
+venv/
+.venv/
+
+# Dependências instaladas pelo sistema
+__pycache__/
+*.py[cod]
+*.so
+
+# Arquivos de log
+*.log
+
+# Arquivos de configuração específicos do IDE
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos gerados pelo pytest
+.pytest_cache/
+.coverage
+.cache/
+
+# Arquivos do Jupyter Notebook
+.ipynb_checkpoints/
+
+# Arquivos do sistema de build
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Arquivos de pacotes Python
+*.wheel
+
+# Chaves de API ou arquivos de configuração sensíveis
+.env
+*.env
+
+# Arquivos relacionados ao pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Arquivos temporários do editor
+*.swp
+*~
+
+# Arquivos de lock para pipenv/poetry (caso estejam sendo usados)
+Pipfile.lock
+poetry.lock
